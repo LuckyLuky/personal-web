@@ -23,9 +23,6 @@ export default function Header() {
             <Link href="#skills" className="text-sm hover:text-primary transition-colors">
               Skills
             </Link>
-            <Link href="#projects" className="text-sm hover:text-primary transition-colors">
-              Projects
-            </Link>
             <Link href="#career" className="text-sm hover:text-primary transition-colors">
               Career
             </Link>
