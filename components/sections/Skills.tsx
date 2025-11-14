@@ -1,11 +1,29 @@
 export default function Skills() {
   const technicalStack = [
-    "TypeScript",
-    "JavaScript",
-    "React",
-    "Node.js",
-    "Mixed Native",
-    "ChessWhyDoy",
+    {
+      name: "TypeScript",
+      icon: "<>",
+    },
+    {
+      name: "JavaScript",
+      icon: "JS",
+    },
+    {
+      name: "React",
+      icon: "⚛️",
+    },
+    {
+      name: "Node.js",
+      icon: "🟢",
+    },
+    {
+      name: "React Native",
+      icon: "📱",
+    },
+    {
+      name: "Next.js",
+      icon: "▲",
+    },
   ];
 
   const productGrowth = [
@@ -54,9 +72,10 @@ export default function Skills() {
           {technicalStack.map((tech, index) => (
             <span
               key={index}
-              className="px-4 py-2 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors"
+              className="px-5 py-3 bg-gray-100 text-gray-800 rounded-full text-sm font-medium hover:bg-gray-200 transition-colors flex items-center gap-2"
             >
-              {tech}
+              <span className="text-cyan-600 font-bold">{tech.icon}</span>
+              <span>{tech.name}</span>
             </span>
           ))}
         </div>
