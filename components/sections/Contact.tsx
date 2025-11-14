@@ -8,9 +8,12 @@ export default function Contact() {
           technical ideas, or collaborating on growth. Get in touch, I&apos;d love to hear your thoughts and
           opportunities.
         </p>
-        <button className="bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-lg transition-colors font-medium">
+        <a
+          href="mailto:info@lukas-havlicek.cz"
+          className="inline-block bg-primary hover:bg-primary-hover text-white px-8 py-3 rounded-lg transition-colors font-medium"
+        >
           Say Hello
-        </button>
+        </a>
       </div>
     </section>
   );
