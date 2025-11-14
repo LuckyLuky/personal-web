@@ -1,28 +1,39 @@
 export default function Career() {
   const timeline = [
     {
-      role: 'Continuous Evolution',
-      company: 'Present',
-      period: '',
-      description: 'Always at the edge of new tech and constantly integrating expert-led product strategy and growth. I focus on leveraging modern tools and AI to build high-quality products and teams.',
+      role: "Engineering Manager",
+      company: "Pipedrive",
+      period: "January 2025 - Present",
+      description:
+        "Managing a distributed team of 8 brilliant engineers, focused on Growth engineering and rapid experimentation. Working closely with product managers, designers, engineering managers and stakeholders, while striving to be an enabler for the engineering team.",
     },
     {
-      role: 'Transition to Engineering Management',
-      company: 'Leadership Step',
-      period: '',
-      description: 'I transitioned to leading engineering teams, focusing on upskilling a culture of meaningful, technical excellence, and user-first/value collaboration in cross-functional settings.',
+      role: "Lead Software Engineer",
+      company: "Pipedrive",
+      period: "January 2024 - January 2025",
+      description:
+        "Tech lead in a small team focused on rapid experimentation around new customer journey. Worked closely with product manager, designer, UX researcher and data analyst. The work involved the whole product lifecycle, from early discovery phase through proof of concepts to putting together teams for final delivery.",
     },
     {
-      role: 'Transition to Product-Focused Roles',
-      company: 'Senior IC',
-      period: '',
-      description: 'I deepened my expertise in B2B SaaS and full-stack product development. Focused on AB testing, data analytics, and product-led features that led to this user growth.',
+      role: "Senior Full-stack Developer",
+      company: "Pipedrive",
+      period: "March 2022 - January 2024",
+      description:
+        "Part of multiple product teams (initially Leads, later Support Inbox and finally Email & Messaging) while being involved in several platform initiatives. Led several projects within the Missions & Tribes framework. Technologies: TypeScript, React, GraphQL (Relay), Tanstack Query, Nest.js, Fastify, MySQL, Kafka, CouchDB.",
     },
     {
-      role: 'Early Years as Fullstack Developer',
-      company: 'Junior to Mid-level',
-      period: '',
-      description: 'Began my career building web and mobile applications and rapidly explored new JavaScript, React, Node.js, and technologies like React Native and GraphQL.',
+      role: "Frontend Developer & Lecturer",
+      company: "Česká televize, Software Development Academy, Showmax",
+      period: "February 2019 - March 2022",
+      description:
+        "Built a brand new video-on-demand platform at Česká televize (Czech national broadcasting television) from the ground up, including custom video player and GraphQL server. Taught JavaScript fundamentals at Software Development Academy. Previously worked on Showmax's VOD platform. Technologies: TypeScript, React, GraphQL (Apollo).",
+    },
+    {
+      role: "PHP/JS Developer & JS Team Leader",
+      company: "RTsoft s.r.o.",
+      period: "March 2015 - January 2019",
+      description:
+        "Started as a PHP backend developer and transitioned to JavaScript and frontend development. Led the JavaScript team from March 2018, focusing on JavaScript in both web and mobile applications.",
     },
   ];
 
@@ -43,7 +54,8 @@ export default function Career() {
             {/* Content */}
             <div className="flex-1 pb-8">
               <h3 className="text-2xl font-bold mb-1">{item.role}</h3>
-              <div className="text-sm text-gray-500 mb-2">{item.company}</div>
+              <div className="text-sm text-gray-500 mb-1">{item.company}</div>
+              <div className="text-sm text-gray-400 mb-3">{item.period}</div>
               <p className="text-gray-600">{item.description}</p>
             </div>
           </div>
