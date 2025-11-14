@@ -1,46 +1,51 @@
 export default function Skills() {
   const technicalStack = [
-    'TypeScript',
-    'JavaScript',
-    'React',
-    'Node.js',
-    'Mixed Native',
-    'ChessWhyDoy',
+    "TypeScript",
+    "JavaScript",
+    "React",
+    "Node.js",
+    "Mixed Native",
+    "ChessWhyDoy",
   ];
 
   const productGrowth = [
-    'Product-Led Growth (PLG)',
-    'Growth Hacking',
-    'A/B Testing & Experimentation',
-    'Data-Driven Decision Making',
+    "Product-Led Growth (PLG)",
+    "Growth Hacking",
+    "A/B Testing & Experimentation",
+    "Data-Driven Decision Making",
   ];
 
   const domainLeadership = [
     {
-      title: 'B2B SaaS Platforms',
-      icon: '🏢',
-      description: 'Deep experience in building and scaling business-to-business SaaS products from concept to scale.',
+      title: "B2B SaaS Platforms",
+      icon: "🏢",
+      description:
+        "Deep experience in building and scaling business-to-business SaaS products from concept to scale.",
     },
     {
-      title: 'Engineering Management',
-      icon: '👥',
-      description: 'Building high-performing teams, managing technical priorities, and developing technical talent.',
+      title: "Engineering Management",
+      icon: "👥",
+      description:
+        "Building high-performing teams, managing technical priorities, and developing technical talent.",
     },
     {
-      title: 'Scaling Frontend Systems',
-      icon: '⚡',
-      description: 'Building modern, high-quality UIs for growth and complex data visualization.',
+      title: "Scaling Frontend Systems",
+      icon: "⚡",
+      description: "Building modern, high-quality UIs (not just) for growth.",
     },
     {
-      title: 'Cross-functional Collaboration',
-      icon: '🤝',
-      description: 'Working with product, design, and data teams to ship features that drive results.',
+      title: "Cross-functional Collaboration",
+      icon: "🤝",
+      description:
+        "Working with product, design, and data teams to ship features that drive results.",
     },
   ];
 
   return (
     <section id="skills" className="container mx-auto px-6 py-16">
-      <h2 className="text-4xl md:text-5xl font-bold mb-12">Core Expertise & Skills</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-12">
+        Core Expertise & Skills
+      </h2>
 
       {/* Technical Stack */}
       <div className="mb-10">
