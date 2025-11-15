@@ -1,45 +1,46 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function Career() {
+  const t = useTranslations('career');
+
   const timeline = [
     {
-      role: "Engineering Manager",
-      company: "Pipedrive",
-      period: "January 2025 - Present",
-      description:
-        "Managing a distributed team of 8 brilliant engineers, focused on Growth engineering and rapid experimentation. Working closely with product managers, designers, engineering managers and stakeholders, while striving to be an enabler for the engineering team.",
+      role: t('engineeringManager.role'),
+      company: t('pipedrive'),
+      period: t('engineeringManager.period'),
+      description: t('engineeringManager.description'),
     },
     {
-      role: "Lead Software Engineer",
-      company: "Pipedrive",
-      period: "January 2024 - January 2025",
-      description:
-        "Tech lead in a small team focused on rapid experimentation around new customer journey. Worked closely with product manager, designer, UX researcher and data analyst. The work involved the whole product lifecycle, from early discovery phase through proof of concepts to putting together teams for final delivery.",
+      role: t('leadEngineer.role'),
+      company: t('pipedrive'),
+      period: t('leadEngineer.period'),
+      description: t('leadEngineer.description'),
     },
     {
-      role: "Senior Full-stack Developer",
-      company: "Pipedrive",
-      period: "March 2022 - January 2024",
-      description:
-        "Part of multiple product teams (initially Leads, later Support Inbox and finally Email & Messaging) while being involved in several platform initiatives. Led several projects within the Missions & Tribes framework. Technologies: TypeScript, React, GraphQL (Relay), Tanstack Query, Nest.js, Fastify, MySQL, Kafka, CouchDB.",
+      role: t('seniorDev.role'),
+      company: t('pipedrive'),
+      period: t('seniorDev.period'),
+      description: t('seniorDev.description'),
     },
     {
-      role: "Frontend Developer & Lecturer",
-      company: "Česká televize, Software Development Academy, Showmax",
-      period: "February 2019 - March 2022",
-      description:
-        "Built a brand new video-on-demand platform at Česká televize (Czech national broadcasting television) from the ground up, including custom video player and GraphQL server. Taught JavaScript fundamentals at Software Development Academy. Previously worked on Showmax's VOD platform. Technologies: TypeScript, React, GraphQL (Apollo).",
+      role: t('frontendLecturer.role'),
+      company: t('ceskaTv'),
+      period: t('frontendLecturer.period'),
+      description: t('frontendLecturer.description'),
     },
     {
-      role: "PHP/JS Developer & JS Team Leader",
-      company: "RTsoft s.r.o.",
-      period: "March 2015 - January 2019",
-      description:
-        "Started as a PHP backend developer and transitioned to JavaScript and frontend development. Led the JavaScript team from March 2018, focusing on JavaScript in both web and mobile applications.",
+      role: t('phpJs.role'),
+      company: t('rtsoft'),
+      period: t('phpJs.period'),
+      description: t('phpJs.description'),
     },
   ];
 
   return (
     <section id="career" className="container mx-auto px-6 py-16">
-      <h2 className="text-4xl md:text-5xl font-bold mb-12">Career Journey</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-12">{t('title')}</h2>
       <div className="space-y-8 max-w-3xl">
         {timeline.map((item, index) => (
           <div key={index} className="flex gap-6">

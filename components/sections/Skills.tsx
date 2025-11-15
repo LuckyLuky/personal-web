@@ -1,4 +1,9 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function Skills() {
+  const t = useTranslations('skills');
   const technicalStack = [
     {
       name: "TypeScript",
@@ -27,47 +32,44 @@ export default function Skills() {
   ];
 
   const productGrowth = [
-    "Product-Led Growth (PLG)",
-    "Growth Hacking",
-    "A/B Testing & Experimentation",
-    "Data-Driven Decision Making",
+    t('plg'),
+    t('growthHacking'),
+    t('abTesting'),
+    t('dataDriven'),
   ];
 
   const domainLeadership = [
     {
-      title: "B2B SaaS Platforms",
+      title: t('b2bSaas.title'),
       icon: "🏢",
-      description:
-        "Deep experience in building and scaling business-to-business SaaS products from concept to scale.",
+      description: t('b2bSaas.description'),
     },
     {
-      title: "Engineering Management",
+      title: t('engineeringManagement.title'),
       icon: "👥",
-      description:
-        "Building high-performing teams, managing technical priorities, and developing technical talent.",
+      description: t('engineeringManagement.description'),
     },
     {
-      title: "Scaling Frontend Systems",
+      title: t('scalingFrontend.title'),
       icon: "⚡",
-      description: "Building modern, high-quality UIs (not just) for growth.",
+      description: t('scalingFrontend.description'),
     },
     {
-      title: "Cross-functional Collaboration",
+      title: t('crossFunctional.title'),
       icon: "🤝",
-      description:
-        "Working with product, design, and data teams to ship features that drive results.",
+      description: t('crossFunctional.description'),
     },
   ];
 
   return (
     <section id="skills" className="container mx-auto px-6 py-16">
       <h2 className="text-4xl md:text-5xl font-bold mb-12">
-        Core Expertise & Skills
+        {t('title')}
       </h2>
 
       {/* Technical Stack */}
       <div className="mb-10">
-        <h3 className="text-xl font-semibold mb-4">Technical Stack</h3>
+        <h3 className="text-xl font-semibold mb-4">{t('technicalStack')}</h3>
         <div className="flex flex-wrap gap-3">
           {technicalStack.map((tech, index) => (
             <span
@@ -83,7 +85,7 @@ export default function Skills() {
 
       {/* Product & Growth */}
       <div className="mb-10">
-        <h3 className="text-xl font-semibold mb-4">Product & Growth</h3>
+        <h3 className="text-xl font-semibold mb-4">{t('productGrowth')}</h3>
         <div className="flex flex-wrap gap-3">
           {productGrowth.map((skill, index) => (
             <span
@@ -98,7 +100,7 @@ export default function Skills() {
 
       {/* Domain & Leadership */}
       <div>
-        <h3 className="text-xl font-semibold mb-4">Domain & Leadership</h3>
+        <h3 className="text-xl font-semibold mb-4">{t('domainLeadership')}</h3>
         <div className="grid md:grid-cols-2 gap-6">
           {domainLeadership.map((item, index) => (
             <div

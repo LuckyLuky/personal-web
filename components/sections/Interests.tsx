@@ -1,34 +1,40 @@
+'use client';
+
+import { useTranslations } from 'next-intl';
+
 export default function Interests() {
+  const t = useTranslations('interests');
+
   const interests = [
     {
-      title: 'MMA & BJJ',
+      title: t('mmaBjj'),
       icon: '🥋',
     },
     {
-      title: 'Fitness',
+      title: t('fitness'),
       icon: '💪',
     },
     {
-      title: 'Coffee',
+      title: t('coffee'),
       icon: '☕',
     },
     {
-      title: 'Fantasy books',
+      title: t('fantasyBooks'),
       icon: '📚',
     },
     {
-      title: 'History',
+      title: t('history'),
       icon: '🏰',
     },
     {
-      title: 'Geography & Geopolitics',
+      title: t('geopolitics'),
       icon: '🌍',
     },
   ];
 
   return (
     <section className="container mx-auto px-6 py-16">
-      <h2 className="text-4xl md:text-5xl font-bold mb-12">Interests & Personality</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-12">{t('title')}</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
         {interests.map((interest, index) => (
           <div

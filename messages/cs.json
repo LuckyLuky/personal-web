@@ -1,0 +1,99 @@
+{
+  "header": {
+    "name": "Lukas Havlicek",
+    "about": "O mně",
+    "skills": "Dovednosti",
+    "career": "Kariéra",
+    "contact": "Kontakt",
+    "codeAriaLabel": "Kód",
+    "languageAriaLabel": "Jazyk"
+  },
+  "hero": {
+    "greeting": "Ahoj, jsem Lukáš",
+    "role": "Engineering Manager & Produktově myslící inženýr",
+    "description": "Vedu inženýrské týmy a vytvářím produkty, které lidé milují. Kombinuji technickou expertízu s produktovým myšlením, abych dosáhl měřitelného dopadu.",
+    "cta": "Napište mi"
+  },
+  "skills": {
+    "title": "Klíčové dovednosti & Zkušenosti",
+    "technicalStack": "Technologie",
+    "productGrowth": "Produkt & Růst",
+    "domainLeadership": "Oblast & Vedení",
+    "plg": "Product-Led Growth (PLG)",
+    "growthHacking": "Growth Hacking",
+    "abTesting": "A/B Testování & Experimentování",
+    "dataDriven": "Rozhodování založené na datech",
+    "b2bSaas": {
+      "title": "B2B SaaS Platformy",
+      "description": "Hluboké zkušenosti s budováním a škálováním business-to-business SaaS produktů od konceptu až po škálování."
+    },
+    "engineeringManagement": {
+      "title": "Řízení Inženýrských Týmů",
+      "description": "Budování vysoce výkonných týmů, řízení technických priorit a rozvoj technických talentů."
+    },
+    "scalingFrontend": {
+      "title": "Škálování Frontend Systémů",
+      "description": "Budování moderních, vysoce kvalitních uživatelských rozhraní (nejen) pro růst."
+    },
+    "crossFunctional": {
+      "title": "Mezifunkční Spolupráce",
+      "description": "Spolupráce s produktovými, designovými a datovými týmy pro dodání funkcí, které přinášejí výsledky."
+    }
+  },
+  "career": {
+    "title": "Kariérní Cesta",
+    "pipedrive": "Pipedrive",
+    "ceskaTv": "Česká televize, Software Development Academy, Showmax",
+    "rtsoft": "RTsoft s.r.o.",
+    "engineeringManager": {
+      "role": "Engineering Manager",
+      "period": "Leden 2025 - Současnost",
+      "description": "Řízení distribuovaného týmu 8 skvělých inženýrů, zaměřených na Growth engineering a rychlé experimentování. Úzká spolupráce s produktovými manažery, designéry, dalšími engineering managery a stakeholdery, s cílem být enablerem pro inženýrský tým."
+    },
+    "leadEngineer": {
+      "role": "Lead Software Engineer",
+      "period": "Leden 2024 - Leden 2025",
+      "description": "Tech lead v malém týmu zaměřeném na rychlé experimentování kolem nové zákaznické cesty. Úzká spolupráce s produktovým manažerem, designérem, UX výzkumníkem a datovým analytikem. Práce zahrnovala celý produktový životní cyklus, od rané discovery fáze přes proof of concepts až po sestavování týmů pro finální dodání."
+    },
+    "seniorDev": {
+      "role": "Senior Full-stack Developer",
+      "period": "Březen 2022 - Leden 2024",
+      "description": "Součást několika produktových týmů (zpočátku Leads, později Support Inbox a nakonec Email & Messaging), zároveň s účastí v několika platformových iniciativách. Vedení několika projektů v rámci Missions & Tribes frameworku. Technologie: TypeScript, React, GraphQL (Relay), Tanstack Query, Nest.js, Fastify, MySQL, Kafka, CouchDB."
+    },
+    "frontendLecturer": {
+      "role": "Frontend Developer & Lektor",
+      "period": "Únor 2019 - Březen 2022",
+      "description": "Budoval zcela novou video-on-demand platformu v České televizi od základů, včetně vlastního video přehrávače a GraphQL serveru. Vyučoval základy JavaScriptu na Software Development Academy. Předtím práce na VOD platformě Showmax. Technologie: TypeScript, React, GraphQL (Apollo)."
+    },
+    "phpJs": {
+      "role": "PHP/JS Developer & JS Team Leader",
+      "period": "Březen 2015 - Leden 2019",
+      "description": "Začal jako PHP backend vývojář a přešel k JavaScriptu a frontend vývoji. Vedení JavaScriptového týmu od března 2018, se zaměřením na JavaScript ve webových i mobilních aplikacích."
+    }
+  },
+  "talks": {
+    "title": "Přednášky",
+    "frontkon": {
+      "title": "Frontkon 2024: Jak jsme se rozloučili s GraphQL",
+      "language": "Dostupné pouze v českém jazyce"
+    }
+  },
+  "interests": {
+    "title": "Zájmy & Osobnost",
+    "mmaBjj": "MMA & BJJ",
+    "fitness": "Fitness",
+    "coffee": "Káva",
+    "fantasyBooks": "Fantasy knihy",
+    "history": "Historie",
+    "geopolitics": "Geografie & Geopolitika"
+  },
+  "contact": {
+    "title": "Pojďme se spojit",
+    "description": "Jsem vždy otevřený diskusi o řízení inženýrství, product-led growth nápadech, konzultacích nebo technických nápadech, nebo spolupráci na růstu. Ozvěte se, rád uslyším vaše myšlenky a příležitosti.",
+    "cta": "Napište mi"
+  },
+  "languageSwitcher": {
+    "czech": "CZ",
+    "english": "EN"
+  }
+}

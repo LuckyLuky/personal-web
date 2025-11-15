@@ -1,8 +1,10 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 export default function Talks() {
+  const t = useTranslations('talks');
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
   const videoId = 'k3zKfpA9CSw';
   const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
@@ -13,14 +15,14 @@ export default function Talks() {
 
   return (
     <section className="container mx-auto px-6 py-16">
-      <h2 className="text-4xl md:text-5xl font-bold mb-12">Talks</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-12">{t('title')}</h2>
 
       <div className="mb-6">
         <h3 className="text-2xl font-semibold mb-2">
-          Frontkon 2024: How we said goodbye to GraphQL
+          {t('frontkon.title')}
         </h3>
         <p className="text-sm text-muted-foreground italic">
-          Available in Czech language only
+          {t('frontkon.language')}
         </p>
       </div>
 

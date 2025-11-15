@@ -1,8 +1,12 @@
 'use client';
 
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Header() {
+  const t = useTranslations('header');
+
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-gray-200">
       <div className="container mx-auto px-6 py-4">
@@ -12,22 +16,22 @@ export default function Header() {
             <div className="w-6 h-6 border-2 border-foreground rounded-full flex items-center justify-center">
               <div className="w-2 h-2 bg-foreground rounded-full"></div>
             </div>
-            <span>Lukas Havlicek</span>
+            <span>{t('name')}</span>
           </Link>
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
             <Link href="#about" className="text-sm hover:text-primary transition-colors">
-              About
+              {t('about')}
             </Link>
             <Link href="#skills" className="text-sm hover:text-primary transition-colors">
-              Skills
+              {t('skills')}
             </Link>
             <Link href="#career" className="text-sm hover:text-primary transition-colors">
-              Career
+              {t('career')}
             </Link>
             <Link href="#contact" className="text-sm hover:text-primary transition-colors">
-              Contact
+              {t('contact')}
             </Link>
           </div>
 
@@ -38,17 +42,13 @@ export default function Header() {
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 hover:bg-card rounded-lg transition-colors"
-              aria-label="Code"
+              aria-label={t('codeAriaLabel')}
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
               </svg>
             </a>
-            <button className="p-2 hover:bg-card rounded-lg transition-colors" aria-label="Settings">
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
-              </svg>
-            </button>
+            <LanguageSwitcher />
           </div>
         </nav>
       </div>
