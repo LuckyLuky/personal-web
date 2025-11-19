@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="grid md:grid-cols-3 gap-12 items-center">
         {/* Left Content */}
         <div className="space-y-6 md:col-span-2">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+          <h1 className="text-5xl lg:text-6xl font-bold leading-tight">
             {t("greeting")}
             <br />
             {t("role")}
