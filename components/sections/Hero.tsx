@@ -9,9 +9,9 @@ export default function Hero() {
 
   return (
     <section className="container mx-auto px-6 py-16 md:py-24">
-      <div className="grid md:grid-cols-2 gap-12 items-center">
+      <div className="grid md:grid-cols-3 gap-12 items-center">
         {/* Left Content */}
-        <div className="space-y-6">
+        <div className="space-y-6 md:col-span-2">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
             {t("greeting")}
             <br />
@@ -29,7 +29,7 @@ export default function Hero() {
         </div>
 
         {/* Right Avatar */}
-        <div className="flex justify-center md:justify-end">
+        <div className="flex justify-center md:justify-end md:col-span-1">
           <div className="relative w-80 h-80 md:w-96 md:h-96">
             <Image
               src="/images/lukas-avatar.jpg"
