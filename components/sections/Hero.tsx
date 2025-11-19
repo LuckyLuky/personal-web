@@ -1,11 +1,11 @@
-'use client';
+"use client";
 
 import Link from "next/link";
 import Image from "next/image";
-import { useTranslations } from 'next-intl';
+import { useTranslations } from "next-intl";
 
 export default function Hero() {
-  const t = useTranslations('hero');
+  const t = useTranslations("hero");
 
   return (
     <section className="container mx-auto px-6 py-16 md:py-24">
@@ -13,19 +13,17 @@ export default function Hero() {
         {/* Left Content */}
         <div className="space-y-6">
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-            {t('greeting')}
+            {t("greeting")}
             <br />
-            {t('role')}
+            {t("role")}
           </h1>
-          <p className="text-lg text-gray-600 max-w-lg">
-            {t('description')}
-          </p>
+          <p className="text-lg text-gray-600 max-w-lg">{t("description")}</p>
           <div className="flex flex-wrap gap-4">
             <Link
               href="#contact"
               className="inline-block bg-primary hover:bg-primary-hover text-white px-6 py-3 rounded-lg transition-colors font-medium"
             >
-              {t('cta')}
+              {t("cta")}
             </Link>
           </div>
         </div>
@@ -36,8 +34,8 @@ export default function Hero() {
             <Image
               src="/images/lukas-avatar.jpg"
               alt="Lukas Havlicek Avatar"
-              width={400}
-              height={400}
+              width={800}
+              height={812}
               priority
               className="w-full h-full object-contain"
             />
