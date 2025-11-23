@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "translations:sync": "echo \"Take english strings located in messages/en.json and update the messages/cs.json accordingly by translating them to czech language\" | claude"
   },
   "dependencies": {
     "next": "16.0.1",
