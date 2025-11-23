@@ -1,12 +1,13 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { useTranslations } from 'next-intl';
+import { useState } from "react";
+import { useTranslations, useLocale } from "next-intl";
 
 export default function Talks() {
-  const t = useTranslations('talks');
+  const t = useTranslations("talks");
+  const locale = useLocale();
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-  const videoId = 'k3zKfpA9CSw';
+  const videoId = "k3zKfpA9CSw";
   const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 
   const handleClick = () => {
@@ -15,15 +16,15 @@ export default function Talks() {
 
   return (
     <section className="container mx-auto px-6 py-16">
-      <h2 className="text-4xl md:text-5xl font-bold mb-12">{t('title')}</h2>
+      <h2 className="text-4xl md:text-5xl font-bold mb-12">{t("title")}</h2>
 
       <div className="mb-6">
-        <h3 className="text-2xl font-semibold mb-2">
-          {t('frontkon.title')}
-        </h3>
-        <p className="text-sm text-muted-foreground italic">
-          {t('frontkon.language')}
-        </p>
+        <h3 className="text-2xl font-semibold mb-2">{t("frontkon.title")}</h3>
+        {locale !== "cs" && (
+          <p className="text-sm text-muted-foreground italic">
+            {t("frontkon.language")}
+          </p>
+        )}
       </div>
 
       <div className="w-full rounded-2xl overflow-hidden aspect-video relative">
@@ -33,8 +34,8 @@ export default function Talks() {
             className="absolute inset-0 flex items-center justify-center group cursor-pointer transition-all"
             style={{
               backgroundImage: `url(${thumbnailUrl})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
+              backgroundSize: "cover",
+              backgroundPosition: "center",
             }}
           >
             {/* Dark overlay for better play button visibility */}
@@ -42,7 +43,11 @@ export default function Talks() {
 
             {/* Play Button */}
             <div className="relative z-10 w-20 h-20 bg-red-600 rounded-full flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">
-              <svg className="w-10 h-10 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+              <svg
+                className="w-10 h-10 text-white ml-1"
+                fill="currentColor"
+                viewBox="0 0 24 24"
+              >
                 <path d="M8 5v14l11-7z" />
               </svg>
             </div>

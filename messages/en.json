@@ -14,6 +14,29 @@
     "description": "I lead engineering teams and drive growth through rapid experimentation. Combining technical expertise with data-driven product thinking to deliver measurable business impact.",
     "cta": "Get in Touch"
   },
+  "about": {
+    "title": "About Me",
+    "description": "My journey from a hands-on fullstack developer to an engineering manager has been driven by a passion for building not just great software, but great software teams. I thrive on the challenge of scaling B2B SaaS platforms, connecting technology with business outcomes, and fostering a culture of continuous learning. Balancing technical depth with a product-focused mindset to lead teams that deliver impactful solutions."
+  },
+  "expertiseHighlights": {
+    "title": "Expertise Highlights",
+    "productLedGrowth": {
+      "title": "Product-Led Growth",
+      "description": "Driving user acquisition by connecting growth levers like onboarding funnels, activation triggers, and product improvements that naturally attract and retain users."
+    },
+    "b2bSaasFrontend": {
+      "title": "B2B SaaS & Frontend",
+      "description": "Building robust frontend architectures, have extensive experience in the technical and product challenges of delivering high-quality B2B SaaS software."
+    },
+    "experimentationData": {
+      "title": "Experimentation & Data",
+      "description": "Utilizing A/B testing and feature experiments to make data-informed decisions. Comfortable with setting up experiments, analyzing key metrics, and optimizing user experience."
+    },
+    "engineeringLeadership": {
+      "title": "Engineering Leadership",
+      "description": "Building effective engineering teams, fostering technical excellence, and aligning technical initiatives with product and company strategy."
+    }
+  },
   "skills": {
     "title": "Core Expertise & Skills",
     "technicalStack": "Technical Stack",
@@ -25,7 +48,7 @@
     "dataDriven": "Data-Driven Decision Making",
     "b2bSaas": {
       "title": "B2B SaaS Platforms",
-      "description": "Deep experience in building and scaling business-to-business SaaS products from concept to scale."
+      "description": "Deep experience in building and scaling business-to-business SaaS products."
     },
     "engineeringManagement": {
       "title": "Engineering Management",

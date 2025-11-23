@@ -9,10 +9,33 @@
     "languageAriaLabel": "Jazyk"
   },
   "hero": {
-    "greeting": "Ahoj, jsem Lukáš",
+    "greeting": "Ahoj! Jsem Lukáš",
     "role": "Engineering Manager & Growth Engineer",
-    "description": "Vedu inženýrské týmy a pohánám růst skrze rychlé experimentování. Kombinuji technickou expertízu s datově řízeným produktovým myšlením pro dosažení měřitelného business dopadu.",
+    "description": "Vedu softwarové týmy a pomáhám firmám růst skrze rychlé experimentování. Kombinuji technickou expertízu a data-driven produktové myšlení pro dosažení měřitelného dopadu na byznys.",
     "cta": "Napište mi"
+  },
+  "about": {
+    "title": "O mně",
+    "description": "Moje cesta od fullstack vývojáře k engineering managerovi byla vedena vášní pro budování nejen skvělého softwaru, ale také skvělých softwarových týmů. Baví mě výzvy škálování B2B SaaS platforem, propojování technologií s business výsledky a podpora kultury neustálého učení a zlepšování. Balancuji technickou hloubku s produktovým myšlením tak, abych vedl týmy, které dodávají efektivní řešení."
+  },
+  "expertiseHighlights": {
+    "title": "Klíčové Dovednosti",
+    "productLedGrowth": {
+      "title": "Product-Led Growth",
+      "description": "Řízení akvizice uživatelů propojením růstových pák jako jsou onboardingové trychtýře, aktivační spouštěče a produktová vylepšení, která přirozeně přitahují a udržují uživatele."
+    },
+    "b2bSaasFrontend": {
+      "title": "B2B SaaS & Frontend",
+      "description": "Budování robustních frontendových architektur, rozsáhlé zkušenosti s technickými a produktovými výzvami při dodávání vysoce kvalitního B2B SaaS softwaru."
+    },
+    "experimentationData": {
+      "title": "Experimentování & Data",
+      "description": "Využívání A/B testování a produktových experimentů pro rozhodování založená na datech. Zkušenosti s nastavováním experimentů, analyzováním klíčových metrik a optimalizací uživatelské zkušenosti."
+    },
+    "engineeringLeadership": {
+      "title": "Vedení Softwarových Týmů",
+      "description": "Budování efektivních softwarových týmů, podpora technické excelence a slaďování technických iniciativ s produktovou a firemní strategií."
+    }
   },
   "skills": {
     "title": "Klíčové dovednosti & Zkušenosti",
@@ -22,18 +45,18 @@
     "plg": "Product-Led Growth (PLG)",
     "growthHacking": "Growth Hacking",
     "abTesting": "A/B Testování & Experimentování",
-    "dataDriven": "Rozhodování založené na datech",
+    "dataDriven": "Data-driven Rozhodování",
     "b2bSaas": {
       "title": "B2B SaaS Platformy",
-      "description": "Hluboké zkušenosti s budováním a škálováním business-to-business SaaS produktů od konceptu až po škálování."
+      "description": "Zkušenosti s budováním a škálováním business-to-business SaaS produktů."
     },
     "engineeringManagement": {
-      "title": "Řízení Inženýrských Týmů",
-      "description": "Budování vysoce výkonných týmů, řízení technických priorit a rozvoj technických talentů."
+      "title": "Řízení Softwarových Týmů",
+      "description": "Budování výkonných týmů, řízení technických priorit a rozvoj technických talentů."
     },
     "scalingFrontend": {
       "title": "Škálování Frontend Systémů",
-      "description": "Budování moderních, vysoce kvalitních uživatelských rozhraní (nejen) pro růst."
+      "description": "Budování moderních, kvalitních uživatelských rozhraní (nejen) pro růst."
     },
     "crossFunctional": {
       "title": "Mezifunkční Spolupráce",
