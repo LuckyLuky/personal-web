@@ -71,7 +71,7 @@
     "engineeringManager": {
       "role": "Engineering Manager",
       "period": "January 2025 - Present",
-      "description": "Managing a distributed team of 8 brilliant engineers, focused on Growth engineering and rapid experimentation. Working closely with product managers, designers, engineering managers and stakeholders, while striving to be an enabler for the engineering team."
+      "description": "Managing a distributed team of 8 brilliant engineers, focused on Growth engineering and rapid experimentation. Working closely with product managers, designers, engineering managers and stakeholders, while striving to keep the engineering team happy and engaged and be an enabler for them."
     },
     "leadEngineer": {
       "role": "Lead Software Engineer",
@@ -81,12 +81,12 @@
     "seniorDev": {
       "role": "Senior Full-stack Developer",
       "period": "March 2022 - January 2024",
-      "description": "Part of multiple product teams (initially Leads, later Support Inbox and finally Email & Messaging) while being involved in several platform initiatives. Led several projects within the Missions & Tribes framework. Technologies: TypeScript, React, GraphQL (Relay), Tanstack Query, Nest.js, Fastify, MySQL, Kafka, CouchDB."
+      "description": "Part of multiple product teams (including team focused on Email & Messaging) while being involved in several platform initiatives. Led several projects within the Missions framework. Technologies: TypeScript, React, GraphQL (Relay), Tanstack Query, Nest.js, Fastify, MySQL, Kafka, CouchDB."
     },
     "frontendLecturer": {
       "role": "Frontend Developer & Lecturer",
       "period": "February 2019 - March 2022",
-      "description": "Built a brand new video-on-demand platform at Česká televize (Czech national broadcasting television) from the ground up, including custom video player and GraphQL server. Taught JavaScript fundamentals at Software Development Academy. Previously worked on Showmax's VOD platform. Technologies: TypeScript, React, GraphQL (Apollo)."
+      "description": "Helped build a brand new video-on-demand platform at Česká televize (Czech national broadcasting television) from the ground up, including custom video player and GraphQL server. Taught JavaScript fundamentals at Software Development Academy. Previously worked on Showmax's VOD platform. Technologies: TypeScript, React, GraphQL (Apollo)."
     },
     "phpJs": {
       "role": "PHP/JS Developer & JS Team Leader",
@@ -102,7 +102,7 @@
     }
   },
   "interests": {
-    "title": "Interests & Personality",
+    "title": "Interests",
     "mmaBjj": "MMA & BJJ",
     "fitness": "Fitness",
     "coffee": "Coffee",
@@ -118,5 +118,9 @@
   "languageSwitcher": {
     "czech": "CZ",
     "english": "EN"
+  },
+  "footer": {
+    "location": "Based in Prague, Czech Republic",
+    "copyright": "© 2025 Lukas Havlicek. All rights reserved."
   }
 }

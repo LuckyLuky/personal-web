@@ -1,6 +1,10 @@
+'use client';
+
 import Link from "next/link";
+import { useTranslations } from 'next-intl';
 
 export default function Footer() {
+  const t = useTranslations('footer');
   return (
     <footer className="container mx-auto px-6 py-8 border-t border-gray-200">
       <div className="flex flex-col items-center gap-6">
@@ -51,12 +55,12 @@ export default function Footer() {
               d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
             />
           </svg>
-          Based in Prague, Czech Republic
+          {t('location')}
         </p>
 
         {/* Copyright */}
         <p className="text-sm text-gray-600">
-          © 2025 Lukas Havlicek. All rights reserved.
+          {t('copyright')}
         </p>
       </div>
     </footer>
