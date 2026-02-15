@@ -10,7 +10,7 @@
     "translations:sync": "echo \"Take english strings located in messages/en.json and update the messages/cs.json accordingly by translating them to czech language\" | claude"
   },
   "dependencies": {
-    "next": "16.0.1",
+    "next": "16.0.10",
     "next-intl": "^4.5.3",
     "react": "19.2.0",
     "react-dom": "19.2.0"
