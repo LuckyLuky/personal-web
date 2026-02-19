@@ -10,6 +10,8 @@
     "translations:sync": "echo \"Take english strings located in messages/en.json and update the messages/cs.json accordingly by translating them to czech language\" | claude"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.6.1",
+    "@vercel/speed-insights": "^1.3.1",
     "next": "16.0.10",
     "next-intl": "^4.5.3",
     "react": "19.2.0",
