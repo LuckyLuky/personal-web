@@ -16,8 +16,30 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://lukas-havlicek.cz'),
   title: "Lukas Havlicek - Engineering Manager & Fullstack Developer",
   description: "Portfolio of Lukas Havlicek, a passionate leader and TypeScript specialist who loves hands-on coding. Specializing in building modern, scalable applications.",
+  icons: {
+    icon: [
+      { url: '/images/icons/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/images/icons/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/images/icons/favicon.ico' },
+    ],
+    apple: '/images/icons/apple-touch-icon.png',
+  },
+  openGraph: {
+    type: 'website',
+    url: 'https://lukas-havlicek.cz',
+    title: "Lukas Havlicek - Engineering Manager & Fullstack Developer",
+    description: "Portfolio of Lukas Havlicek, a passionate leader and TypeScript specialist who loves hands-on coding. Specializing in building modern, scalable applications.",
+    images: [{ url: '/images/lukas-avatar.jpg' }],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "Lukas Havlicek - Engineering Manager & Fullstack Developer",
+    description: "Portfolio of Lukas Havlicek, a passionate leader and TypeScript specialist who loves hands-on coding. Specializing in building modern, scalable applications.",
+    images: ['/images/lukas-avatar.jpg'],
+  },
 };
 
 export function generateStaticParams() {
